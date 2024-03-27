@@ -9,6 +9,7 @@ html, body {
   height: 100%;
   background-color: #f7efef;
   font-family: "Poppins", sans-serif;
+  text-align: justify;
 }
 
 /*Container Geral*/
@@ -51,6 +52,11 @@ html, body {
 }
 
 /*Experiência*/
+.container-experiencia {
+  display: flex;
+  flex-direction: column;
+}
+
 .container-experiencia h2 {
   border-bottom: solid 2px #00E0FF;
   color: #232323;
@@ -59,3 +65,28 @@ html, body {
   padding-bottom: 0.3%;
   padding-top: 5%;
 }
+
+.container-experiencia-descrition {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  padding-top: 5%;
+}
+
+.container-experiencia-descrition h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #232323;
+}
+.container-experiencia-descrition p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #28231D;
+}
+.container-experiencia-descrition h3 span {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #00E0FF;
+}
+
+/*Educação*/
