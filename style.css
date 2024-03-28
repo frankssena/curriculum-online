@@ -12,6 +12,10 @@ html, body {
   text-align: justify;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*Container Geral*/
 .container {
   width: 100%;
@@ -37,12 +41,13 @@ html, body {
 
 /*Container Sobre*/
 .container-sobre h2 {
+  border-bottom: solid 2px #00E0FF;
+  color: #232323;
+  text-transform: uppercase;
   padding-top: 5%;
   padding-bottom: 0.3%;
   font-size: 2rem;
   font-weight: 600;
-  color: #232323;
-  border-bottom: solid 2px #00E0FF;
 }
 .container-sobre p {
   margin-top: 1%;
@@ -60,6 +65,7 @@ html, body {
 .container-experiencia h2 {
   border-bottom: solid 2px #00E0FF;
   color: #232323;
+  text-transform: uppercase;
   font-size: 2rem;
   font-weight: 600;
   padding-bottom: 0.3%;
@@ -69,7 +75,7 @@ html, body {
 .container-experiencia-descrition {
   display: flex;
   justify-content: space-between;
-  gap: 300px;
+  gap: 250px;
   padding-top: 5%;
 }
 
@@ -90,3 +96,119 @@ html, body {
 }
 
 /*Educação*/
+.container-educacao h2 {
+  border-bottom: solid 2px #00E0FF;
+  color: #232323;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0.3%;
+  padding-top: 5%;
+}
+
+.container-educacao h3  {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 2%;
+  color: #232323;
+}
+
+.container-educacao strong {
+  color: #00E0FF;
+}
+
+.container-educacao p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #28231D;
+  padding-top: 1%;
+}
+
+/*Habilidades*/
+.conteiner-habilidades {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner-habilidades h2 {
+  border-bottom: solid 2px #00E0FF;
+  color: #232323;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0.3%;
+  padding-top: 5%;
+}
+
+.container-skil {
+  display: flex;
+  gap: 80px;
+}
+
+.conteiner-habilidades-skil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 2%;
+}
+
+.conteiner-habilidades-skil h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #232323;
+}
+
+.porcebtagem {
+  border-radius: 10px;
+  background-color:#b3aeb3;
+  width: 100px;
+  height: 10px;
+}
+.porcebtagem2 {
+  width: 80px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #00E0FF;
+}
+/*Footer-contatos*/
+footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 8%;
+  background-color: #00E0FF;
+}
+
+footer h2 {
+  border-bottom: solid 2px #f7efef;
+  color: #232323;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.footer-links a {
+  color: #232323;;
+  text-decoration: none;
+}
+.footer-links ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: #1d1d1d;
+  text-align: center;
+  padding-bottom: 20px;
+}
