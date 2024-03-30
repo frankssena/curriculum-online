@@ -7,7 +7,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: #f7efef;
+  background-color: #eadeea;
   font-family: "Poppins", sans-serif;
   text-align: justify;
 }
@@ -18,197 +18,222 @@ a {
 
 /*Container Geral*/
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 2024px;
+  min-height: 100%;
   margin: auto;
 }
-
-/*Container Name*/
-.container-name h1{
-  padding-top: 5%;
-  font-size: 3rem;
+.container-name {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10%;
+}
+.container-name h1 {
+  width: 100%;
+  font-size: 1.8rem;
   font-weight: 700;
-  color: #232323;
+  color:#000;
+  text-transform:uppercase;
+  line-height: 1;
 }
-
-.container-name p {
-  margin-top: 1%;
-  text-transform: uppercase;
-  font-size: 1.7rem;
-  font-weight: 400;
-  color:  #00E0FF ;
+.container-name h2 {
+  color:#00E0FF;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform:uppercase;
+  margin-top: 2%;
 }
-
-/*Container Sobre*/
+/*Sobre*/
+.container-sobre {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10%;
+}
 .container-sobre h2 {
   border-bottom: solid 2px #00E0FF;
-  color: #232323;
-  text-transform: uppercase;
-  padding-top: 5%;
-  padding-bottom: 0.3%;
-  font-size: 2rem;
+  font-size: 22px;
+  color: #000;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .container-sobre p {
-  margin-top: 1%;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #28231D;
+  color: #161616;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5%;
 }
-
 /*Experiência*/
 .container-experiencia {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10%;
 }
-
 .container-experiencia h2 {
   border-bottom: solid 2px #00E0FF;
-  color: #232323;
-  text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 22px;
+  color: #000;
   font-weight: 600;
-  padding-bottom: 0.3%;
-  padding-top: 5%;
+  text-transform: uppercase;
 }
-
 .container-experiencia-descrition {
-  display: flex;
-  justify-content: space-between;
-  gap: 250px;
-  padding-top: 5%;
+  width: 100%;
+  min-width: 120px;
+  margin-top: 10%;
 }
-
 .container-experiencia-descrition h3 {
-  font-size: 1.8rem;
+  color: #111111;
+  font-size: 18px;
   font-weight: 500;
-  color: #232323;
+  text-align: center;
 }
 .container-experiencia-descrition p {
-  font-size: 1rem;
+  color: #161616;
+  font-size: 14px;
+  font-weight: 300;
+}
+.p-descrition {
+  color: #000;
+  font-size: 14px;
   font-weight: 400;
-  color: #28231D;
+  text-align: center;
 }
 .container-experiencia-descrition h3 span {
-  font-size: 1.8rem;
-  font-weight: 500;
   color: #00E0FF;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
 }
-
 /*Educação*/
+.container-educacao {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10%;
+}
 .container-educacao h2 {
   border-bottom: solid 2px #00E0FF;
-  color: #232323;
-  font-size: 2rem;
+  font-size: 22px;
+  color: #000;
   font-weight: 600;
-  padding-bottom: 0.3%;
-  padding-top: 5%;
+  text-transform: uppercase;
 }
-
-.container-educacao h3  {
-  font-size: 1.5rem;
+.container-educacao h3 {
+  color: #111111;
+  font-size: 18px;
   font-weight: 500;
-  padding-top: 2%;
-  color: #232323;
+  margin-top: 5%;
 }
-
+.container-educacao p {
+  color: #161616;
+  font-size: 14px;
+  font-weight: 300;
+}
 .container-educacao strong {
   color: #00E0FF;
 }
 
-.container-educacao p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #28231D;
-  padding-top: 1%;
-}
-
 /*Habilidades*/
 .conteiner-habilidades {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10%;
 }
-
 .conteiner-habilidades h2 {
   border-bottom: solid 2px #00E0FF;
-  color: #232323;
-  font-size: 2rem;
+  font-size: 22px;
+  color: #000;
   font-weight: 600;
-  padding-bottom: 0.3%;
-  padding-top: 5%;
+  text-transform: uppercase;
 }
-
-.container-skil {
-  display: flex;
-  gap: 80px;
-}
-
-.conteiner-habilidades-skil {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding-top: 2%;
-}
-
-.conteiner-habilidades-skil h3 {
-  font-size: 1.1rem;
+.conteiner-habilidades h3 {
+  color: #111111;
+  font-size: 18px;
   font-weight: 500;
-  color: #232323;
+  margin-top: 5%;
+} 
+.container-skil {
+  display: block;
 }
-
-.porcebtagem {
+.porcebtagem-wordpress {
+  border: none;
+  background-color: red;
   border-radius: 10px;
-  background-color:#b3aeb3;
   width: 100px;
   height: 10px;
 }
-.porcebtagem2 {
+.porcebtagem-php {
+  border: none;
+  background-color: red;
+  border-radius: 10px;
+  width: 100px;
+  height: 10px;
+}
+.porcebtage-wordpress-2 {
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
   width: 80px;
   height: 10px;
-  border-radius: 10px;
-  background-color: #00E0FF;
 }
+.porcebtagem-php-2 {
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  width: 70px;
+  height: 10px;
+}
+.porcebtagem-javascript {
+  border: none;
+  background-color: red;
+  border-radius: 10px;
+  width: 100px;
+  height: 10px;
+}
+.porcebtagem-javascript-2 {
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+.porcebtagem-python {
+  border: none;
+  background-color: red;
+  border-radius: 10px;
+  width: 100px;
+  height: 10px;
+}
+.porcebtagem-python-2 {
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  width: 40px;
+  height: 10px;
+}
+
 /*Footer-contatos*/
 footer {
+  background-color: #111111;
+  color: #fff;
+  display: block;
   width: 100%;
-  margin: auto;
-  margin-top: 8%;
-  background-color: #00E0FF;
-}
-
-footer h2 {
-  border-bottom: solid 2px #f7efef;
-  color: #232323;
-  font-size: 2rem;
-  font-weight: 600;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 10px;
-}
-
-.footer-links {
-  display: flex;
-  gap: 40px;
-  text-decoration: none;
-  list-style: none;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 2%;
-}
-
-.footer-links a {
-  color: #232323;;
-  text-decoration: none;
-}
-.footer-links ul {
-  list-style: none;
-  padding-bottom: 20px;
-}
-
-footer p {
-  color: #1d1d1d;
+  min-height: 120px;
+  margin-top: 10%;
+  padding-bottom: 5%;
   text-align: center;
-  padding-bottom: 20px;
+}
+footer h2 {
+  padding-top: 5%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #eadeea;
+}
+footer p {
+  font-size: 0.8rem;
+}
+.footer-links a{
+  color: #eadeea;
+  font-size: 0.9rem;
 }
