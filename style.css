@@ -15,6 +15,9 @@ html, body {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 /*Container Geral*/
 .container {
@@ -236,4 +239,47 @@ footer p {
 .footer-links a{
   color: #eadeea;
   font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px){
+  .container-name h1 {
+    font-size: 2.4rem;
+  }
+  .container-name h2 {
+    font-size: 1.8rem;
+    
+  }
+  .container-sobre h2 {
+    font-size: 24px;
+  }
+  .container-sobre p {
+    font-size: 16px;
+  }
+  .container-experiencia h2 {
+    font-size: 24px;
+  }
+  .container-experiencia h3, .p-descrition{
+    text-align: start;
+  }
+  .container-experiencia-descrition h3 span {
+    text-align: start;
+  }
+  .container-educacao h2 {
+    font-size: 24px;
+  }
+  .container-habilidade h2 {
+    font-size: 24px;
+  }
+  .container-skil {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
